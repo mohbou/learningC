@@ -10,8 +10,10 @@ void printBytes(void * arr, int n) {
     }
     int main(int argc, char const *argv[])
     {
-        long long arr[]= {16,31,32,65};
-    printBytes(arr,4 * sizeof(long long));
+        long long arr[]= {16,31,32,65};  // 8 bytes x 4 elements = 32 byte
+    printBytes(arr,4 * sizeof(long long)); 
+    // result is 0 00 00 00 00 00 00 00 1f 00 00 00 00 00 00 00 20 00 00 00 00 00 00 00 41 00 00 00 00 00 00 00
+    // 64 bit = 32 byte
         return 0;
     }
         
