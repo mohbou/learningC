@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// tutorial on how memory is printed
 typedef struct {
     int test;
     char k;

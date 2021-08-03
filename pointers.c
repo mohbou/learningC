@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//tutorial on pointers
 
 int main() {
 int a =5;
